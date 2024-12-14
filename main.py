@@ -3,7 +3,7 @@ import pandas as pd
 # Crear datos con duplicados
 data = {
     'id': [1, 2, 3, 2, 4, 5, 3],
-    'nombre': ['Ana', 'Juan', 'PedroZ', 'JuanX', 'Lucía', 'Carlos', 'Pedro']
+    'nombre': ['Ana', 'Juan', 'Pedro', 'Juan', 'Lucía', 'Carlos', 'PedroX']
 }
 
 # Crear el DataFrame
