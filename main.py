@@ -13,3 +13,4 @@ df = pd.DataFrame(data)
 df_sin_duplicados = df.drop_duplicates(subset='id', keep='last')
 
 print(df_sin_duplicados)
+print('con este codigo se eliminan los ultimos registros del df')
